@@ -1,0 +1,196 @@
+(footprint "SK6805-E-J"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "RGB2"
+		(at 0 -2.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "572ba9fb-5923-4e27-af13-88e582c4ba8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6805-E-J"
+		(at 0.1 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a65f4e25-935c-4d04-8dfa-abd4386d8a39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ca57cad-a25a-418d-8ec0-3f41b8c280c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3ba6131-e1b6-49a1-b6aa-502198be947f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fdda72b-5b2a-49f9-976e-82439a962287")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Link" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6805-EC15_C2890035.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f175bc55-f42f-488c-be0b-47fa26510999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0dc6a2d4-bddc-4b0a-b4ff-51d1b26ef491")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6a74ec5-a817-4019-9d74-87c5ce55dce2")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 0.95)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c6410e7-5051-455c-8f7c-17d7e8f0891b")
+	)
+	(fp_line
+		(start 1 0.95)
+		(end 1 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "46f68ad6-e38f-4f18-a49a-85f763e166e7")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db1fc7d4-08ed-4d4a-a0d5-3e0182b28bc9")
+	)
+	(fp_circle
+		(center -1.5 1)
+		(end -1.3 0.95)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a478854b-7cc5-4290-a850-ab5f3dcaccbc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.15 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cba8c706-1942-416b-8cd0-79234611fea6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.475 0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b8435337-4d5c-4d64-a1ff-3df718ecf69f")
+	)
+	(pad "2" smd roundrect
+		(at 0.475 0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4e2a40d5-59ce-4d2d-83e6-24be2c0cc4be")
+	)
+	(pad "3" smd roundrect
+		(at 0.475 -0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "69384608-bdf1-4165-b2cc-31582f675311")
+	)
+	(pad "4" smd roundrect
+		(at -0.475 -0.475)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "3b9903bb-fda5-4b22-9dbd-aae25d9a2926")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_1210.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.6 0.6 0.6)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
